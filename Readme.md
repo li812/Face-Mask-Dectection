@@ -1,3 +1,6 @@
+# Face-Mask-Dectection
+This program uses computer vision techniques and deep learning to detect whether individuals in a video stream are wearing masks or not. It loads a pre-trained face detection model and a pre-trained mask detection model. For every frame in the video stream, the program first detects the faces using the face detection model, and then predicts whether each detected face is wearing a mask or not using the mask detection model. The program then draws bounding boxes around the detected faces and adds labels indicating whether each person is wearing a mask or not, and their respective probabilities. Finally, the program displays the video stream with the mask detection results in real-time, and it will stop running when the user presses the 'q' key.
+
 # How to run?
 1. ```git clone https://github.com/li812/FaceMaskDectection.git```
 2. ```cd DetectFaceMask```
